@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "799484156320",
+    "project_id": "fir-auth-notebook",
+    "storage_bucket": "fir-auth-notebook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799484156320:android:e09c8f1f345f5419856cc5",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth_notebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799484156320-k6k6qmlrtjngc7h9oa5k2f34sj2bn09l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-mNM6tMwkKL9R8i758Ra4wkC3mKNO1fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799484156320-k6k6qmlrtjngc7h9oa5k2f34sj2bn09l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799484156320:android:bc18377934bea410856cc5",
+        "android_client_info": {
+          "package_name": "com.example.streambuilder_firebase_database_arfan_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799484156320-k6k6qmlrtjngc7h9oa5k2f34sj2bn09l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-mNM6tMwkKL9R8i758Ra4wkC3mKNO1fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799484156320-k6k6qmlrtjngc7h9oa5k2f34sj2bn09l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
