@@ -12,6 +12,7 @@ class _MyHomepageState extends State<MyHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: SafeArea(
           child: StreamBuilder(
         stream: FirebaseFirestore.instance.collection("Images").snapshots(),
@@ -31,7 +32,10 @@ class _MyHomepageState extends State<MyHomepage> {
                   DocumentSnapshot data = snapshot.data.docs[index];
                   return GridTile(
                       child: Card(
-                        shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(15),side: BorderSide(color: Colors.lightGreenAccent,width: 3)),
+                          shape: BeveledRectangleBorder(
+                              borderRadius: BorderRadius.circular(15),
+                              side: BorderSide(
+                                  color: Colors.lightGreenAccent, width: 3)),
                           color: Colors.amberAccent,
                           shadowColor: Colors.amber,
                           surfaceTintColor: Colors.blue,
